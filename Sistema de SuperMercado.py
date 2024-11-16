@@ -130,7 +130,7 @@ remove_button.grid(row=0, column=1, padx=5, pady=5)
 # Lista de produtos
 product_list_label = tk.Label(root, text="Lista de Produtos", bg="#4682b4", fg="white", font=("Arial", 16, "bold"))
 product_list_label.pack(pady=10, fill=tk.X)
-product_list = tk.Listbox(root, height=10, width=60, font=("Arial", 10))
+product_list = tk.Listbox(root, height=10, width=200, font=("Arial", 10))
 product_list.pack()
 product_list.bind("<<ListboxSelect>>", select_product)
 
